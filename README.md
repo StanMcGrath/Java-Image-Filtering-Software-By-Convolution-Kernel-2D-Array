@@ -9,7 +9,7 @@ HOW TO RUN
 
 //////////////
 
-Via the command prompt on your OS (cmd on Windows), navigate to the bin directory of the Programme and run the following command:
+Via the command prompt on your OS (cmd on Windows), navigate to the bin directory of the Programme and run the following command to excecute the JAR file:
 
 java -cp ./ImageFilter.jar ie.gmit.hdip.Runner
 
