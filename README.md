@@ -20,3 +20,5 @@ TO DO
 //////////////
 
 This Programme represented an introductory venture into a Java OOP Project of larger scale. As such, it contains much duplicate code (each of the Kernel classes hold the same code apart from their specific convolution kernel matrices). These classes should be re-done to contain only the kernel code which is to be passed in as parameter to a single Kernel Class, in adherance to stronger OOP abstraction principles.
+
+/
