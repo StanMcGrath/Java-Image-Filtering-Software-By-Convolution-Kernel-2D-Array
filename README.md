@@ -3,6 +3,20 @@ This programme filters images by convolution kernel matrices using 2D arrays in 
 
 This folder contains the SRC and bin folders of the project in which reside the Java classes and code.
 
+This programme displays a moderate although not ideal degree of OOP practise, including encapsulation and delegation. However, there are classes which contain duplicate code (see TO DO section). 
+
+The Menu class contains Menu functionality to prompt the user and read user input, and calls the relevant methods from other classes based on that input.
+
+The ImageReader class reads in the user specified image as a BufferedImage.
+
+The ImageWriter class writes out the filtered image as a .png file. 
+
+The Kernel Class specifies the Matrixes for each type of filter as 2D arrays.
+
+The Filter Image class was created to apply convolution kernel logic to the pixels of the user-inputted image via 2D Array with filter type as parameter. However, we violate the SRP and re-use the same code in each Filter class. This was a design choice due to time limitations when the author was still learning good OOP practise.
+
+Each Filter Class implements the code of the above class with different parameters for each filter.  
+
 //////////////
 
 HOW TO RUN
