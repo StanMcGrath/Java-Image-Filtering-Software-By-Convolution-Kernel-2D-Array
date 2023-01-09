@@ -10,10 +10,8 @@ import java.util.Arrays;
 
 /* This was the original class where I created the Image Filtering process. I had planned to have only this one class,
  * and apply each of the different filters in the user menu by setting different parameters (Kernel types). 
- * However easy as it seemed, I struggled with it as the program became more complicated and I lost track of some of the basics that would have been easier
- * had the program been simpler. So my only other solution to work around this (that 
- * I could think of) was to create a separate class for each filter type. 
- * Apologies for the large amount of redundant code as a result.
+ * Instead, we violate the SRP and create to create a separate class for each filter type to speed up work flow to meet the deadline. 
+ * A large amount of redundant code results with each Filter class containing this code. This must be improved in the future.
  */
 
 
